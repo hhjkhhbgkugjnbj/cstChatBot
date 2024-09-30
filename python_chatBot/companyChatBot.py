@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)  # CORS 활성화
 
 # Gemini API 키 설정
-os.environ['GOOGLE_API_KEY'] = "AIzaSyAFJYfdRVCJKHAJabsPxiXYS8xs12LMUEk"  # 여기에 실제 API 키를 입력하세요
+os.environ['GOOGLE_API_KEY'] = ""  # 여기에 실제 API 키를 입력하세요
 
 # Gemini 모델 설정
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
